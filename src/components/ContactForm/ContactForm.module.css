@@ -1,0 +1,18 @@
+.formField {
+  text-align: left;
+  border: 1px solid #666;
+  border-radius: 18px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 450px;
+}
+.addBtn {
+  background-color: #807b7b;
+}
+.addBtn:hover {
+  background-color: #42e27c;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
