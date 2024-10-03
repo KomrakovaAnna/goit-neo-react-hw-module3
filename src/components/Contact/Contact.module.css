@@ -42,8 +42,10 @@
 input {
   border-radius: 8px;
   padding: 8px 64px;
+  padding-left: 10px;
   background-color: #c3c1c1;
   margin-right: 4px;
+  color: #666;
 }
 h1 {
   color: #535bf2;
