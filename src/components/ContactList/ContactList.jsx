@@ -8,8 +8,10 @@ const ContactList = ({ contacts, deleteContact }) => {
         {contacts.map((contact) => (
           <Contact
             key={contact.id}
-            contact={contact}
-            onDeleteContact={deleteContact}
+            id={contact.id}
+            name={contact.name}
+            number={contact.number}
+            deleteContact={deleteContact}
           />
         ))}
       </ul>
